@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-const componentsList = [
+const bodyPart = [
   'text',
   'textarea',
   'select',
@@ -51,8 +51,8 @@ const App = () => {
   return (
     <div style={{ display: 'flex' }}>
       <div className="sidebar">
-        <h3>Form Components</h3>
-        {componentsList.map((component, index) => (
+        <h3>Form Linked Body parts</h3>
+        {bodyPart.map((component, index) => (
           <div key={index} style={{ display: 'flex', width: '100%', flexDirection: 'column', gap: '20px' }}>
             <input
               className="draggable"
