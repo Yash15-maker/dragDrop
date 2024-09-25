@@ -1,0 +1,38 @@
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-builder {
+  width: 70%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* min-height: 200vh; */
+  /* height: 100%; */
+  display: 'flex';
+  flex-direction: 'column';
+  justify-content: space-between;
+  width: '100%';
+  gap: 90px
+}
+
+.draggable {
+  padding: 10px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+.form-component {
+  padding: 10px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: flex-start;
+  cursor: grab;
+  width: 100%;
+}
